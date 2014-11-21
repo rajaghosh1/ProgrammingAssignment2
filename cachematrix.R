@@ -1,7 +1,9 @@
-## Put comments here that give an overall description of what your
-## functions do
 ## This file contains a set of functions for inverting a matrix and
 ## storing the result in cache, to be retrieved in subsequent calls
+## Usage example :
+## > y <- matrix(1:4, 2, 2)
+## > cache <- makeCacheMatrix(y)
+## > cacheSolve(cache)
 
 ## This is an utility function to manipulate a cache containing
 ## a matrix and its inverse,
